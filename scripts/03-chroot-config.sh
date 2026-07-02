@@ -12,7 +12,7 @@ set -x
 DISK="/dev/nvme0n1"
 ROOT_PART="${DISK}p2"
 LUKS_NAME="cryptroot"
-HOSTNAME="archlinux"
+HOSTNAME="xenarch"
 TIMEZONE="Asia/Bangkok"
 USERNAME="xenatt"
 # --------------------------------
