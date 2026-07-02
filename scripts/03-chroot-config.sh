@@ -60,7 +60,6 @@ EOF
 
 echo "==> Generating locale (en_US + th_TH)"
 sed -i 's/^#en_US.UTF-8/en_US.UTF-8/; s/^#th_TH.UTF-8/th_TH.UTF-8/' /etc/locale.gen
-echo "en_TH.UTF-8" >> /etc/locale.gen
 locale-gen
 echo "LANG=en_US.UTF-8" > /etc/locale.conf
 
